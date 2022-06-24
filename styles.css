@@ -1,0 +1,189 @@
+/*css stylesheet for Landing Page Project */
+/* Built by Ahnaf Rahim 6/23/2022 */
+
+/* Body Properties */
+body {
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+
+/*Flex Container for Entire Page */
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Headers + Links Section */
+
+.headers {  
+    display: flex;
+    color:  #F9FAF8;
+    background-color: #1F2937;
+    padding:  20px 0px 20px 100px;
+    align-items: center;
+    font-size: 25px;
+}
+
+.logo img{
+    width: 300px;
+    height: 150px;
+    margin-left: auto;
+}
+
+.links {
+    display: flex;
+    margin-left: auto;
+    padding: 10px;
+    font-size: 25px;
+    gap: 20px;
+}
+
+/*Hero Main Text */
+
+.initialText {
+    display: flex;
+    justify-content: start;
+    align-content: space-around;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 100px;
+}
+
+.textHolder {
+ display: flex;
+ flex.basis: 300px;
+ flex-direction: column;
+ text-align: left;
+ margin-right: 50px;
+}
+
+.textHolder button{
+  background-color: #4CAF50;
+  width: 150px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.heroMainText{
+ font-size: 48px;
+ font-weight: bold;
+ color: #F9FAF8;
+
+}
+
+.heroSecondaryText {
+ font-size: 18px;
+ color: #E5E7EB;
+}
+
+.heroImg img{
+    width: 650px;
+    height: 350px;
+}
+
+/* 4 Separate Images CSS Properties*/
+
+.diffPokemonImages{
+    align-items: center;
+}
+
+.diffPokemonImages h2{
+    font-size: 40px;
+    color: rebeccapurple;
+}
+
+.pokeDescrip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.pokeDescrip p{
+    font-size: 28px;
+    color: springgreen;
+}
+
+.pokeDescrip img{
+    border-radius: 20px;
+    background: #73AD21;
+    padding: 20px;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    margin:  5px 20px 0px 20px;
+}
+
+/* Quote CSS */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 125px;
+}
+
+.quote p{
+    font-size: 50px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+ /* End Sign Up Button CSS */
+
+ .signUpContainer{
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-between;
+    padding: 20px 50px;
+    border-radius: 10px;
+    height: 150px;
+
+ }
+
+.endingSignUpButton button{
+  display flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+  width: 150px;
+  height: 50px;
+  padding: 10px 20px;
+  margin:  auto;
+  font-size: 27px;
+}
+
+.signUpEnd{
+    text-align: left;
+}
+
+ .signUpEnd h3{
+    font-size: 36px;
+    font-weight: bolder;
+    color: ghostwhite;
+ }
+
+ .signUpEnd p{
+    text-align: left;
+    color: white;
+ }
+
+ /* Footer CSS */
+
+ .footer p{
+    background-color: #1F2937;
+    color: white;
+    font-size: 27px;
+    height: 40px;
+    padding: 30px;
+    border-radius: 10px;
+ }
